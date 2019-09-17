@@ -1,0 +1,16 @@
+md5: 4d627f6163e5eee03fe729326d512aca
+cmd: python code/pytrain.py
+wdir: .
+deps:
+- md5: db014a8de65d3062818195f45714415d
+  path: code/pytrain.py
+- md5: 8e69aba3162a147f59f9faea1a258433.dir
+  path: data
+- md5: dd941234b0ddd2a55ad8a759eb1ee62b
+  path: data.dvc
+outs:
+- md5: 6aa622e76c7b16726f6db4228229b051
+  path: output/model.pkl
+  cache: true
+  metric: false
+  persist: false

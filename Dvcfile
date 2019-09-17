@@ -1,0 +1,14 @@
+md5: 3dccddcf6d0e28a7a24380957907983b
+cmd: python code/pyprediction.py
+wdir: .
+deps:
+- md5: 6aa622e76c7b16726f6db4228229b051
+  path: output/model.pkl
+- md5: 9ea6adaa0edc29ae0ce4f5146f33042b
+  path: data/iris_test.csv
+outs:
+- md5: b9e031b3cf0dac021a0433395de418e7
+  path: prediction/eval.txt
+  cache: true
+  metric: false
+  persist: false
